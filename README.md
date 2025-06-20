@@ -1,61 +1,107 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🛍️ Project Quản Lý Cửa Hàng Xe
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 👤 Thông tin sinh viên
 
-## About Laravel
+- **Họ tên**: Phùng Gia Minh
+- **Mã sinh viên**: 23010869
+- **Lớp**: K17_CNTT9
+- **Môn học**: Thiết kế web nâng cao (COUR01.TH4)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📌 Giới thiệu Project
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Dự án xây dựng một hệ thống web đơn giản mô phỏng hệ thống hóa đơn cơ bản bao gồm:
+- Đăng nhập/Đăng ký
+- Xem thông tin về khách hàng, sản phẩm, đơn hàng
+- Thêm/Sửa/Xóa thông tin
+- Thông tin chi tiết về đơn hàng
+- Tìm kiếm thông tin
 
-## Learning Laravel
+Dự án được xây dựng bằng **Laravel + Breeze** và lưu trữ dữ liệu trên cloud (Aiven MySQL).
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Sơ đồ dự án
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Sơ đồ cấu trúc (Class Diagram)
+![image](https://github.com/user-attachments/assets/d3e7e796-902f-420d-97de-e713e0f6237a)
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+### 1. Chức năng thêm thông tin khách hàng mới, sản phẩm mới, đơn hàng mới.
+![image](https://github.com/user-attachments/assets/bcb567a8-d912-40b4-bcb6-aa6750aa4a45)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 2. Chức năng sửa thông tin khách hàng, sản phẩm, đơn hàng.
+![image](https://github.com/user-attachments/assets/61ef81bc-7ae1-4f57-b0cc-9b7c5414a912)
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+### 3. Chức năng xóa thông tin khách hàng, sản phẩm, đơn hàng.
+![image](https://github.com/user-attachments/assets/e15e4750-8329-4cd7-b435-3d54713ed0c3)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 4. Chức năng xem thông tin chi tiết của đơn hàng.
+![image](https://github.com/user-attachments/assets/dafff57c-fd5d-4ff3-852f-cd5db4ab7fd3)
+
+
+---
+
+### 5. Chức năng tìm kiếm thông tin khách hàng, sản phẩm, đơn hàng.
+![image](https://github.com/user-attachments/assets/557982a4-b781-416c-bade-20e1c96eaee6)
+
+
+---
+
+
+## 📸 Ảnh chụp màn hình
+
+### Giao diện trang chủ (trước khi đăng nhập): 
+![image](https://github.com/user-attachments/assets/f8d09ba7-6aca-49c0-8918-d6a0533f3a99)
+
+
+### Giao diện trang chủ (sau khi đăng nhập):
+![image](https://github.com/user-attachments/assets/49b4a0d0-c112-4164-b186-08f9baa03b0e)
+
+
+
+### Giao diện Quản lý khách hàng:
+![image](https://github.com/user-attachments/assets/d586692e-85fd-430f-ad91-33c17c00ad1f)
+
+
+### Giao diện quản lý sản phẩm:
+![image](https://github.com/user-attachments/assets/29036dcb-bc85-423f-91d1-657a8cff7398)
+
+
+
+### Giao diện quản lý đơn hàng:
+![image](https://github.com/user-attachments/assets/1acc2dd4-7abc-422d-bfb9-8556e0b0106b)
+
+
+---
+
+## 💻 Code minh họa phần chính
+-  Models :  
+![image](https://github.com/user-attachments/assets/683ae142-3a9c-4b3a-85f1-dcdc62b43e68)
+
+
+- Controller :  
+![image](https://github.com/user-attachments/assets/35bb717c-a435-493e-82d5-e62d610b8156)
+
+
+- View :    
+![image](https://github.com/user-attachments/assets/33f35cfb-9033-4dac-bd38-6cd5a0347646)
+
+
+---
+
+## Link Github Repository: 
+[Truy cập dự án tại đây](https://github.com/GMinh1/HeThongHoaDonCoBan)
+---
