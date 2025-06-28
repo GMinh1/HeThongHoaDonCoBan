@@ -105,3 +105,8 @@ Dự án được xây dựng bằng **Laravel + Breeze** và lưu trữ dữ li
 ## Link Github Repository: 
 [Truy cập dự án tại đây](https://github.com/GMinh1/HeThongHoaDonCoBan)
 ---
+
+## Link Github Repository: 
+[Demo](https://youtu.be/Qx5dUzrebKY)
+---
+
